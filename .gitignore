@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Hugging Face cache
+.cache/
+
+# Model files
+models/
+
+# Results optional
+results/*.csv
