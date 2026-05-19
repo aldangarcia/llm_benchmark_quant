@@ -62,7 +62,7 @@ def run_benchmark(model_id, precision):
     
     safe_model_name = model_id.replace("/", "_")
 
-    filename = f"../results/{safe_model_name}_{precision}"
+    filename = f"../results/{safe_model_name}_{precision}.csv"
 
     df.to_csv(filename, index=False)
 
